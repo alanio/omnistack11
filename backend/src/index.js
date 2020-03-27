@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
-/* quando no servifor de producao, definir o origin do cors
+/* quando no servidor de producao, definir o origin do cors
   app.use(cors({
   origin: 'http://meuapp.com'
 })); 
