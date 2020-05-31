@@ -38,17 +38,22 @@ $ npm start
 ```
 
 mobile
-> For tests on your own android , install expo app in your android phone, then read the qr code provided by the expo cli
+> For tests on your own android , confirm installation of expo, install expo app in your android phone, then read the qr code provided by the expo cli
 >
-> Run Mobile: Change IP adress for baseURL in: src/services/api.js :warning:
->
-> Run Mobile: Any validations changes in backend made a bug in mobile, suggestions are welcome  :warning:
+> Run Mobile: Change IP adress to your own machine's IP in: src/services/api.js :warning:
 >
 > Errors? Look at https://github.com/Rocketseat/expo-common-issues
 ```
 $ cd mobile
 $ npm install
+```
+
+> Acept expo instalation :warning:
+
+```
 $ npm start
 ```
+
+![mobile](https://user-images.githubusercontent.com/13988485/83343624-3a694c80-a2d3-11ea-88ba-c27e6d9b7247.gif)
 
 ## License
